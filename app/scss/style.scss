@@ -24,18 +24,18 @@
     color: $title;
     text-transform: uppercase;    
     border-bottom: 1px solid transparent;
+    padding: 0 2px 1px;
     transition: all .5s;
-    @extend %quicksand-400;
+    @extend %roboto-400;
     &:hover{
       color: $accent;
-      padding-bottom: 5px;
       border-bottom: 1px solid $accent;
-      @extend %quicksand-500;
+      @extend %roboto-700;
     }
   }
   &__list-link--active{
     color: $accent;
-    @extend %quicksand-500;
+    @extend %roboto-700;
   }
 }
 
